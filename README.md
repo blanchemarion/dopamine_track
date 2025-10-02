@@ -6,6 +6,8 @@
 
 `analysis_notebook.ipynb`: pipeline for visual inspection of processed photometry data and behavior data, computing behavior metrics (odor trail following features) and basic analysis/alignment between bahvior and neural data
 
+`dunl` scripts: preprocess, train and visualize deconvolution 
+
 ## Large artefacts in photometry - Summary
 - The large **downward dips** seen in **isosbestic (CAM1EXC1)** and **GCaMP (CAM1EXC2)** are liekly not due to timestamp misalignment or dropped frames
 - Hardware timing is **tight**: camera frame times align to Digital I/O (TTL) edges
